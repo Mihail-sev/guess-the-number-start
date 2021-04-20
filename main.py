@@ -12,7 +12,7 @@ from art import logo
 print (logo)
 level = input ("Welcome to GuessHame.\nTry to guess number from 1 to 100.\n Choose your dificult level: 'hard' or 'easy'.\n") 
 
-rand_number = randint (1, 101)
+rand_number = randint (1, 100)
 if level == "easy":
   attempts = 10
 else:
